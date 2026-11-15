@@ -29,9 +29,19 @@ header{
 }
 
 .logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
     font-size:28px;
     font-weight:700;
     color:#D4AF37;
+    text-decoration:none;
+}
+
+.logo img{
+    width:44px;
+    height:44px;
+    display:block;
 }
 
 nav a{
@@ -917,6 +927,15 @@ body.modal-open {
     color: #0f172a;
 }
 @media (max-width: 768px) {
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .logo img {
+        width: 36px;
+        height: 36px;
+    }
 
     header .container {
         flex-direction: column;
